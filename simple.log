@@ -1,0 +1,8 @@
+2022-06-02 11:49:08:754 +0200 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+2022-06-02 11:49:08:778 +0200 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BG\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-02 11:49:10:955 +0200 [Test worker] INFO TC1_Homepage_Login_Success - loginTest test started:
+2022-06-02 11:49:11:007 +0200 [Test worker] INFO TC1_Homepage_Login_Success - opening home page
+2022-06-02 11:49:11:507 +0200 [Test worker] INFO TC1_Homepage_Login_Success - logging in
+2022-06-02 11:49:11:508 +0200 [Test worker] INFO pages.HomePage - sending name to username field
+2022-06-02 11:49:11:910 +0200 [Test worker] INFO TC1_Homepage_Login_Success - checking if logged in:
+2022-06-02 11:49:12:035 +0200 [Test worker] INFO TC1_Homepage_Login_Success - login is success

@@ -22,6 +22,7 @@ public class HomePage extends BasePage{
   }
 
   public void login(){
+    LOG.info("sending name to username field");
     usernameField.sendKeys("standard_user");
     passwordField.sendKeys("secret_sauce");
     loginButton.click();
