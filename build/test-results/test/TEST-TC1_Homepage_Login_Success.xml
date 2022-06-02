@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC1_Homepage_Login_Success" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-02T08:19:13" hostname="BG-VIVO" time="0.995">
+<testsuite name="TC1_Homepage_Login_Success" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-02T08:54:41" hostname="BG-VIVO" time="7.688">
   <properties/>
-  <testcase name="loginTest()" classname="TC1_Homepage_Login_Success" time="0.995"/>
+  <testcase name="loginTest()" classname="TC1_Homepage_Login_Success" time="7.688"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 51126
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 54302
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-jún. 02, 2022 10:19:13 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
+jún. 02, 2022 10:54:41 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-jún. 02, 2022 10:19:13 DE. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+jún. 02, 2022 10:54:41 DE. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
-jún. 02, 2022 10:19:13 DE. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+jún. 02, 2022 10:54:41 DE. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 102 of 101
 ]]></system-err>
 </testsuite>

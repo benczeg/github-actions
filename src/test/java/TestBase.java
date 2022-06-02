@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class TestBase {
@@ -12,7 +13,9 @@ public class TestBase {
   @BeforeAll
   public void setup() {
     WebDriverManager.chromedriver().setup();
-    driver = new ChromeDriver();
+    ChromeOptions options = new ChromeOptions();
+    options.addArguments("--headless");
+    driver = new ChromeDriver(options);
   }
 
   @AfterAll
